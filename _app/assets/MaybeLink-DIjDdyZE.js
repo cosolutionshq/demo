@@ -1,1 +1,0 @@
-import{x as e,y as t}from"./app-C7j2MMbN.js";var n=t();function r({href:t,children:r,className:i=``,...a}){return t?(0,n.jsx)(e,{href:t,className:i,...a,children:r}):(0,n.jsx)(`span`,{className:i,children:r})}export{r as t};

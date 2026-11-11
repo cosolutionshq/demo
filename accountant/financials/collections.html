@@ -18,13 +18,41 @@
     <meta property="og:title" content="Explore Co.Solutions — interactive tour">
     <meta property="og:description" content="The real agency system, frozen: boards, clients, finance, people and Insights, as each role sees them. Sample data from a fictional agency.">
     <meta property="og:type" content="website">
-    <link rel="stylesheet" href="/demo/_files/identity.css">
-    <link rel="stylesheet" href="/demo/_app/assets/main-Dfu5O-Xg.css">
+    <style>html{background:#edf1f2;color-scheme:light}html[data-theme=dark]{background:#0a1315;color-scheme:dark}body{margin:0}
+#tour-boot{--page:#edf1f2;--card:#fff;--raised:#fff;--line:#d9e1e2;--line2:#e6eced;--ink:#132024;--text2:#3e4e52;--muted:#5a6a6e;--sh1:0 1px 2px rgba(19,32,36,.05),0 8px 24px -12px rgba(19,32,36,.2);--sh2:0 2px 4px rgba(19,32,36,.08),0 18px 36px -12px rgba(19,32,36,.32);--f:#0b6970;--fB:#9bd5d2;--fE:#0a4f54;--fT:#132024;--logoPlate:transparent;position:fixed;inset:0;z-index:2147483500;display:grid;place-items:center;padding:16px;background:var(--page);color:var(--ink);font:15px/1.45 var(--font-sans,'Geist',system-ui,-apple-system,'Segoe UI',sans-serif);transition:opacity 160ms ease}
+html[data-theme=dark] #tour-boot{--page:#0a1315;--card:#132024;--raised:#1b2c31;--line:#24383d;--line2:#1d3035;--ink:#eef4f4;--text2:#c3d0d2;--muted:#93a5a8;--sh1:inset 0 1px 0 rgba(255,255,255,.04),0 12px 32px -12px rgba(0,0,0,.7);--sh2:inset 0 1px 0 rgba(255,255,255,.07),0 20px 40px -12px rgba(0,0,0,.8);--f:#5fc4c9;--fB:#1d4c51;--fE:#9bd5d2;--fT:#eef4f4;--logoPlate:#f3f6f6}
+#tour-boot[hidden]{display:none}#tour-boot.is-leaving{opacity:0}
+#tour-boot[data-f=owed]{--f:oklch(.52 .1 70);--fB:oklch(.86 .07 80);--fE:oklch(.4 .08 65)}#tour-boot[data-f=time]{--f:oklch(.5 .1 255);--fB:oklch(.86 .05 255);--fE:oklch(.38 .08 255)}#tour-boot[data-f=people]{--f:oklch(.5 .1 320);--fB:oklch(.87 .05 320);--fE:oklch(.38 .08 320)}#tour-boot[data-f=pipe]{--f:oklch(.5 .1 145);--fB:oklch(.87 .06 145);--fE:oklch(.38 .08 145)}#tour-boot[data-f=ink]{--fB:#132024;--fE:#9bd5d2;--fT:#fff}
+html[data-theme=dark] #tour-boot[data-f=owed]{--f:oklch(.8 .1 75);--fB:oklch(.38 .05 70);--fE:oklch(.88 .07 80)}html[data-theme=dark] #tour-boot[data-f=time]{--f:oklch(.8 .09 255);--fB:oklch(.36 .05 255);--fE:oklch(.88 .05 255)}html[data-theme=dark] #tour-boot[data-f=people]{--f:oklch(.8 .09 320);--fB:oklch(.36 .05 320);--fE:oklch(.88 .05 320)}html[data-theme=dark] #tour-boot[data-f=pipe]{--f:oklch(.8 .1 145);--fB:oklch(.37 .05 145);--fE:oklch(.88 .06 145)}html[data-theme=dark] #tour-boot[data-f=ink]{--fB:#e6eeee;--fE:#0b6970;--fT:#132024}
+.tb-box{display:grid;justify-items:center;row-gap:24px;width:min(100%,440px)}
+.tb-logo-plate{display:flex;padding:8px 12px;border-radius:8px;background:var(--logoPlate)}.tb-logo{display:block;height:24px;width:auto}
+.tb-card{width:100%;background:var(--card);border:1px solid var(--line);border-radius:12px;box-shadow:var(--sh1);overflow:hidden}
+.tb-head{display:flex;align-items:center;padding-right:20px}
+.tb-plate{display:flex;flex-direction:column;gap:6px;min-width:0;padding:18px 32px 18px 24px;border-radius:11px 0 20px 0;background:var(--fB)}
+.tb-eye{font:600 13px/1 var(--font-sans,system-ui,sans-serif);color:var(--fE);white-space:nowrap}
+.tb-who{font-family:var(--font-display,'Archivo','Arial Narrow',sans-serif);font-stretch:75%;font-weight:800;font-size:26px;line-height:1;color:var(--fT);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.tb-chip{position:relative;flex:none;margin-left:-22px;padding:10px 14px;border:1px solid var(--line);border-radius:10px;background:var(--raised);box-shadow:var(--sh2);font:500 24px/1 var(--font-figures,'IBM Plex Mono',ui-monospace,Menlo,Consolas,monospace);color:var(--f)}
+.tb-chip::before{content:'';position:absolute;left:-7px;top:-7px;width:14px;height:14px;background:var(--f)}
+html[data-theme=dark] #tour-boot[data-f=ink] .tb-chip,#tour-boot[data-f=ink] .tb-chip{color:var(--ink)}#tour-boot[data-f=ink] .tb-chip::before{background:#5fc4c9}
+.tb-body{display:grid;row-gap:14px;padding:24px}
+.tb-role{font-weight:600;font-size:16px;line-height:1.3}
+.tb-track{height:4px;border-radius:2px;background:var(--line2);overflow:hidden}
+.tb-track i{display:block;width:40%;height:100%;border-radius:2px;background:var(--f);animation:tb-go 1.2s ease-in-out infinite}
+#tour-boot[data-f=ink] .tb-track i{background:var(--ink)}
+@keyframes tb-go{from{transform:translateX(-100%)}to{transform:translateX(250%)}}
+@media (prefers-reduced-motion:reduce){.tb-track i{animation:none;width:100%;opacity:.5}#tour-boot{transition:none}}
+.tb-msg{color:var(--text2)}
+.tb-tip{padding:16px 24px;border-top:1px solid var(--line2);font-size:13px;color:var(--muted);min-height:52px}</style>
     <script src="/demo/tour-meta.js"></script>
     <script src="/demo/tour-config.js"></script>
-    <script type="module" src="/demo/_app/assets/main-BP7iZHtm.js"></script>
+    <script>(function(){var t=null;try{t=localStorage.getItem('tour:theme')}catch(e){}if(t!=='dark'&&t!=='light')t=matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light';document.documentElement.dataset.theme=t})()</script>
+    <link rel="stylesheet" href="/demo/_files/identity.css" media="print" data-tour-css onload="this.media='all';this.dataset.ready=1">
+    <link rel="stylesheet" href="/demo/_app/assets/main-CZu8L9or.css" media="print" data-tour-css onload="this.media='all';this.dataset.ready=1">
+    <script type="module" src="/demo/_app/assets/main-BSvbeCRL.js"></script>
 </head>
 <body>
+    <div id="tour-boot" role="status" aria-live="polite" hidden><div class="tb-box"><span class="tb-logo-plate"><img class="tb-logo" alt="Co.Solutions" width="150" height="24"></span><div class="tb-card"><div class="tb-head"><div class="tb-plate"><span class="tb-eye"></span><span class="tb-who"></span></div><span class="tb-chip" aria-hidden="true"></span></div><div class="tb-body"><span class="tb-role"></span><div class="tb-track" aria-hidden="true"><i></i></div><span class="tb-msg"></span></div><div class="tb-tip">Tip: switch role any time from the top bar</div></div></div></div>
+    <script>(function(){var T=window.__TOUR__,p=location.pathname,s=p.indexOf(T.base)===0?p.slice(T.base.length).split('/')[0]:'',r=T.roles.filter(function(x){return x.slug===s})[0];if(!r)return;var b=document.getElementById('tour-boot'),q=function(c){return b.querySelector(c)},f=r.personName.split(' ')[0];b.setAttribute('data-f',(r.card&&r.card.family)||'money');q('.tb-chip').textContent=r.personName.split(' ').map(function(w){return w[0]}).slice(0,2).join('');q('.tb-eye').textContent=r.label+' · '+(r.card&&r.card.access||'');q('.tb-who').textContent=r.personName;q('.tb-role').textContent=r.personTitle;q('.tb-msg').textContent='Opening '+f+'’s workspace…';if(T.logo)q('.tb-logo').src=T.logo;else q('.tb-logo-plate').remove();b.hidden=false})()</script>
     <div id="app"></div>
     <noscript><p style="font:16px system-ui;padding:24px">This tour of Co.Solutions needs JavaScript.</p></noscript>
 </body>
