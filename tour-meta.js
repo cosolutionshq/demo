@@ -1,9 +1,9 @@
 // Written by tools/static-demo/build-site.mjs: the roles, the day the data was captured, the base.
 window.__TOUR__ = {
  "base": "/demo/",
- "asOf": "2026-11-11",
- "capturedLabel": "11 November 2026",
- "capturedShort": "11 Nov 2026",
+ "asOf": "2026-11-15",
+ "capturedLabel": "15 November 2026",
+ "capturedShort": "15 Nov 2026",
  "agency": "9 people, 4 clients and 3 months of history",
  "logo": "/demo/_files/identity/wordmark.png",
  "agencyName": "Sunline Creative",
