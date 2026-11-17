@@ -1,9 +1,9 @@
 // Written by tools/static-demo/build-site.mjs: the roles, the day the data was captured, the base.
 window.__TOUR__ = {
  "base": "/demo/",
- "asOf": "2026-11-15",
- "capturedLabel": "15 November 2026",
- "capturedShort": "15 Nov 2026",
+ "asOf": "2026-11-16",
+ "capturedLabel": "16 November 2026",
+ "capturedShort": "16 Nov 2026",
  "agency": "9 people, 4 clients and 3 months of history",
  "logo": "/demo/_files/identity/wordmark.png",
  "agencyName": "Sunline Creative",
@@ -37,12 +37,12 @@ window.__TOUR__ = {
  ],
  "preload": {
   "js": [
-   "assets/app-BIgwCrqg.js",
+   "assets/app-BkHq-GOt.js",
    "assets/dist-BR7hDOvj.js",
-   "assets/main-BSvbeCRL.js"
+   "assets/main-CmZAlill.js"
   ],
   "css": [
-   "assets/app-DHRVERbB.css",
+   "assets/app-ORma-I1j.css",
    "assets/main-CZu8L9or.css"
   ]
  },
@@ -83,13 +83,13 @@ window.__TOUR__ = {
     ]
    },
    "preload": [
-    "assets/Login-CrkIbdL7.js",
+    "assets/Login-CT0UCGE8.js",
     "assets/dist-BR7hDOvj.js",
-    "assets/main-BSvbeCRL.js",
-    "assets/Form-D6sO7jts.js",
-    "assets/app-BIgwCrqg.js",
-    "assets/AuthLayout-ZL29YuYD.js",
-    "assets/Mark-BFH4CkA5.js"
+    "assets/main-CmZAlill.js",
+    "assets/Form-CqscTX7R.js",
+    "assets/app-BkHq-GOt.js",
+    "assets/AuthLayout-CAjGDWOe.js",
+    "assets/Mark-CpS6CZFY.js"
    ]
   },
   {
@@ -127,13 +127,13 @@ window.__TOUR__ = {
     ]
    },
    "preload": [
-    "assets/Login-CrkIbdL7.js",
+    "assets/Login-CT0UCGE8.js",
     "assets/dist-BR7hDOvj.js",
-    "assets/main-BSvbeCRL.js",
-    "assets/Form-D6sO7jts.js",
-    "assets/app-BIgwCrqg.js",
-    "assets/AuthLayout-ZL29YuYD.js",
-    "assets/Mark-BFH4CkA5.js"
+    "assets/main-CmZAlill.js",
+    "assets/Form-CqscTX7R.js",
+    "assets/app-BkHq-GOt.js",
+    "assets/AuthLayout-CAjGDWOe.js",
+    "assets/Mark-CpS6CZFY.js"
    ]
   },
   {
@@ -171,13 +171,13 @@ window.__TOUR__ = {
     ]
    },
    "preload": [
-    "assets/Login-CrkIbdL7.js",
+    "assets/Login-CT0UCGE8.js",
     "assets/dist-BR7hDOvj.js",
-    "assets/main-BSvbeCRL.js",
-    "assets/Form-D6sO7jts.js",
-    "assets/app-BIgwCrqg.js",
-    "assets/AuthLayout-ZL29YuYD.js",
-    "assets/Mark-BFH4CkA5.js"
+    "assets/main-CmZAlill.js",
+    "assets/Form-CqscTX7R.js",
+    "assets/app-BkHq-GOt.js",
+    "assets/AuthLayout-CAjGDWOe.js",
+    "assets/Mark-CpS6CZFY.js"
    ]
   },
   {
@@ -211,13 +211,13 @@ window.__TOUR__ = {
     ]
    },
    "preload": [
-    "assets/Login-CrkIbdL7.js",
+    "assets/Login-CT0UCGE8.js",
     "assets/dist-BR7hDOvj.js",
-    "assets/main-BSvbeCRL.js",
-    "assets/Form-D6sO7jts.js",
-    "assets/app-BIgwCrqg.js",
-    "assets/AuthLayout-ZL29YuYD.js",
-    "assets/Mark-BFH4CkA5.js"
+    "assets/main-CmZAlill.js",
+    "assets/Form-CqscTX7R.js",
+    "assets/app-BkHq-GOt.js",
+    "assets/AuthLayout-CAjGDWOe.js",
+    "assets/Mark-CpS6CZFY.js"
    ]
   },
   {
@@ -255,13 +255,13 @@ window.__TOUR__ = {
     ]
    },
    "preload": [
-    "assets/Login-CrkIbdL7.js",
+    "assets/Login-CT0UCGE8.js",
     "assets/dist-BR7hDOvj.js",
-    "assets/main-BSvbeCRL.js",
-    "assets/Form-D6sO7jts.js",
-    "assets/app-BIgwCrqg.js",
-    "assets/AuthLayout-ZL29YuYD.js",
-    "assets/Mark-BFH4CkA5.js"
+    "assets/main-CmZAlill.js",
+    "assets/Form-CqscTX7R.js",
+    "assets/app-BkHq-GOt.js",
+    "assets/AuthLayout-CAjGDWOe.js",
+    "assets/Mark-CpS6CZFY.js"
    ]
   },
   {
@@ -295,13 +295,13 @@ window.__TOUR__ = {
     ]
    },
    "preload": [
-    "assets/Login-CrkIbdL7.js",
+    "assets/Login-CT0UCGE8.js",
     "assets/dist-BR7hDOvj.js",
-    "assets/main-BSvbeCRL.js",
-    "assets/Form-D6sO7jts.js",
-    "assets/app-BIgwCrqg.js",
-    "assets/AuthLayout-ZL29YuYD.js",
-    "assets/Mark-BFH4CkA5.js"
+    "assets/main-CmZAlill.js",
+    "assets/Form-CqscTX7R.js",
+    "assets/app-BkHq-GOt.js",
+    "assets/AuthLayout-CAjGDWOe.js",
+    "assets/Mark-CpS6CZFY.js"
    ]
   }
  ]
